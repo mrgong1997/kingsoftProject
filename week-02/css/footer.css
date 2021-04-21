@@ -1,0 +1,63 @@
+.bottom{
+	background-color: rgb(51,51,51);
+	padding-top: 10px;
+}
+.bottom a{
+	color: lightgray;
+}
+.prebottom{
+	margin: 0;
+	background-color: rgb(51,51,51);
+	width: 100%;
+	height: 220px;
+	position: relative;
+	top: 15px;
+	border-bottom: solid gray 1px;
+}
+.b-1,.b-2,.b-3{
+	width: 27%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+}
+.b-2{
+	margin-left: 2%;
+}
+.b-3{
+	margin-left: 11%;
+}
+.s1{
+	margin-left: 5%;
+	text-align: center;
+	color: lightgray;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.logo{
+	margin-top: 5%;
+}
+.logo,.logotit{
+	width: 80%;
+	height: 25%;
+	float: left;
+	margin-left: 10%;
+	padding-top: 5%;
+}
+.logotit a{
+	text-decoration: none;
+	height: 20%;
+	color: lightgray;
+}
+.b-1 a:hover,.b-3 a:hover,.logotit a:hover{
+	color: rgb(49,194,124);
+	cursor: pointer;
+}
+.b-1 ul,.b-3 ul{
+	margin-left: 15%;
+	list-style: none;
+}
+.b-1 a,.b-3 a{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 15px;
+}
